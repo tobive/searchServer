@@ -1,0 +1,54 @@
+{
+    "groups": [
+        {
+            "name": "AKB48",
+            "description": "blablablbla",
+            "image": "210px-AKBLogo.png"
+        },
+        {
+            "name": "SKE48",
+            "description": "blablablbla",
+            "image": "210px-SKELogo.png"
+        },
+        {
+            "name": "NMB48",
+            "description": "blablablbla",
+            "image": "210px-NMBLogo.png"
+        },
+        {
+            "name": "HKT48",
+            "description": "blablablbla",
+            "image": "210px-HKTLogo.png"
+        },
+        {
+            "name": "NGT48",
+            "description": "blablablbla",
+            "image": "210px-NGTLogo.png"
+        },
+        {
+            "name": "STU48",
+            "description": "blablablbla",
+            "image": "210px-STULogo.jpg"
+        },
+        {
+            "name": "JKT48",
+            "description": "blablablbla",
+            "image": "210px-JKTLogo.png"
+        },
+        {
+            "name": "Nogizaka46",
+            "description": "blablablbla",
+            "image": "210px-NogiLogo.png"
+        },
+        {
+            "name": "BNK48",
+            "description": "blablablbla",
+            "image": "210px-BNKLogo.jpg"
+        },
+        {
+            "name": "Keyakizaka46",
+            "description": "blablablbla",
+            "image": "210px-Keyakizaka46Logo.png"
+        }
+    ]
+}

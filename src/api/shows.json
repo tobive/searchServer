@@ -1,0 +1,54 @@
+{
+    "shows": [
+        {
+            "name": "AKBINGO!",
+            "description": "blablablbla",
+            "image": "AKBingoTitleCard2016.jpg"
+        },
+        {
+            "name": "AKB48 no Konya wa Otomari",
+            "description": "blablablbla",
+            "image": "AKB48_no_Konya_wa_Otomari.jpg"
+        },
+        {
+            "name": "AKB48 SHOW!",
+            "description": "blablablbla",
+            "image": "Akb48showlogo.jpg"
+        },
+        {
+            "name": "AKB Kankou Taishi",
+            "description": "blablablbla",
+            "image": "Kankotaishi.png"
+        },
+        {
+            "name": "Nogibingo",
+            "description": "blablablbla",
+            "image": "img-nogibingo.jpg"
+        },
+        {
+            "name": "Gachi Gase",
+            "description": "blablablbla",
+            "image": "gachi-gase.jpg"
+        },
+        {
+            "name": "Keyakitte, Kakenai?",
+            "description": "blablablbla",
+            "image": "keyakitte-kakenai.jpg"
+        },
+        {
+            "name": "STU48 no SETOBINGO!",
+            "description": "blablablbla",
+            "image": "setobingo.jpg"
+        },
+        {
+            "name": "SKE48 Ebi Calcio",
+            "description": "blablablbla",
+            "image": "ebi-calcio.jpg"
+        },
+        {
+            "name": "SKE48 no Ebi-Friday Night",
+            "description": "blablablbla",
+            "image": "ebi-friday.jpg"
+        }
+    ]
+}

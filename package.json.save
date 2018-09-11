@@ -1,0 +1,14 @@
+{
+  "name": "searchserver",
+  "version": "1.0.0",
+  "description": "bogus search server",
+  "main": "index.js",
+  "scripts": {
+    "start": "n    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tobive",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

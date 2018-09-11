@@ -1,0 +1,54 @@
+{
+    "members": [
+        {
+            "name": "Okabe Rin",
+            "description": "blablablbla",
+            "image": "280px-OkabeRin8July2018.jpg"
+        },
+        {
+            "name": "Sato Akari",
+            "description": "blablablbla",
+            "image": "280px-SatoAkari8July2018.jpg"
+        },
+        {
+            "name": "Honda Hitomi",
+            "description": "blablablbla",
+            "image": "280px-HondaHitomi8July2018.jpg"
+        },
+        {
+            "name": "Oda Erina",
+            "description": "blablablbla",
+            "image": "280px-OdaErina8July2018.jpg"
+        },
+        {
+            "name": "Sato Shiori",
+            "description": "blablablbla",
+            "image": "280px-SatoShiori8July2018.jpg"
+        },
+        {
+            "name": "Nishino Nanase",
+            "description": "blablablbla",
+            "image": "280px-NishinoSynchronicity.jpg"
+        },
+        {
+            "name": "Eto Misa",
+            "description": "blablablbla",
+            "image": "280px-EtoSynchronicity.jpg"
+        },
+        {
+            "name": "Uemura Rina",
+            "description": "blablablbla",
+            "image": "280px-UemuraRina7th.jpg"
+        },
+        {
+            "name": "Watanabe Risa",
+            "description": "blablablbla",
+            "image": "280px-WatanabeRisa7th.jpg"
+        },
+        {
+            "name": "Nagahama Neru",
+            "description": "blablablbla",
+            "image": "280px-NagahamaNeru7th.jpg"
+        }
+    ]
+}
