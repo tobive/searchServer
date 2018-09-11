@@ -8,6 +8,8 @@ const FAIL_RES = { success: false };
 const CATEGORIES = ['group', 'show', 'member'];
 const IMG_URL = '/static/img';
 
+const PORT =  process.env.PORT || 2000;
+
 app.use(IMG_URL, express.static('./src/assets/img/profpic'));
 
 app.get('/api/list/:category', (req, res) => {
@@ -35,4 +37,4 @@ app.get('/', (req, res) => res.send('WELCOME'));
 //   res.status(500).send('Something broke!');
 // });
 
-app.listen(2000, () => console.log('Express is running'));
+app.listen(PORT, () => console.log('Express is running'));
