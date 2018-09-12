@@ -8,14 +8,14 @@ const FAIL_RES = { success: false };
 const CATEGORIES = ['group', 'show', 'member'];
 const IMG_URL = '/static/img';
 
-const PORT =  process.env.PORT || 2000;
+const PORT = process.env.PORT || 2000;
 
 app.use(IMG_URL, express.static('./src/assets/img/profpic'));
 
 app.get('/api/list/:category', (req, res) => {
   if (CATEGORIES.includes(req.params.category)) {
-    const arr = getList(req.params.category);
-    const obj = { success: true, data: arr };
+    const data = getList(req.params.category);
+    const obj = { success: true, data };
     res.json(obj);
   } else {
     res.json(FAIL_RES);
@@ -24,7 +24,8 @@ app.get('/api/list/:category', (req, res) => {
 
 app.get('/api/search/:category/:str', (req, res) => {
   if (CATEGORIES.includes(req.params.category)) {
-    let obj = getSearch(req.params.category, req.params.str);
+    const data = getSearch(req.params.category, req.params.str);
+    const obj = { success: true, data };
     res.json(obj);
   } else {
     res.json(FAIL_RES);

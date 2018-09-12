@@ -8,16 +8,16 @@ function queryFromData(data, query) {
 }
 
 function getSearch(category, query) {
-  let result = {};
+  let result = [];
   if (category === 'show') {
     const { shows: data } = SHOWS;
-    result.shows = queryFromData(data, query);
+    result = queryFromData(data, query);
   } else if (category === 'member') {
     const { members: data } = MEMBERS;
-    result.members = queryFromData(data, query);
+    result = queryFromData(data, query);
   } if (category === 'group') {
     const { groups: data } = GROUPS;
-    result.groups = queryFromData(data, query);
+    result = queryFromData(data, query);
   }
   return result;
 }
