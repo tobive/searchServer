@@ -24,13 +24,13 @@ function getRandomItemsFromArray(arr, number) {
 
 function getRandom(category) {
   let result = [];
-  if (category === 'show') {
+  if (category === 'shows') {
     const { shows: data } = SHOWS;
     result = getRandomItemsFromArray(data, RANDOM_VALUE);
-  } else if (category === 'member') {
+  } else if (category === 'members') {
     const { members: data } = MEMBERS;
     result = getRandomItemsFromArray(data, RANDOM_VALUE);
-  } if (category === 'group') {
+  } if (category === 'groups') {
     const { groups: data } = GROUPS;
     result = getRandomItemsFromArray(data, RANDOM_VALUE);
   }

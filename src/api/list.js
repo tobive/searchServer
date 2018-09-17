@@ -16,11 +16,11 @@ function listAllShows() {
 
 function getList(category) {
   switch (category) {
-    case 'group':
+    case 'groups':
       return listAllGroups();
-    case 'member':
+    case 'members':
       return listAllMembers();
-    case 'show':
+    case 'shows':
       return listAllShows();
     default:
       return [];

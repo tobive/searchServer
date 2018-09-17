@@ -6,7 +6,7 @@ const getRandom = require('./src/api/random');
 
 const app = express();
 const FAIL_RES = { success: false };
-const CATEGORIES = ['group', 'show', 'member'];
+const CATEGORIES = ['groups', 'shows', 'members'];
 const IMG_URL = '/static/img';
 
 const PORT = process.env.PORT || 2000;

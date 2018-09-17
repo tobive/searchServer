@@ -9,13 +9,13 @@ function queryFromData(data, query) {
 
 function getSearch(category, query) {
   let result = [];
-  if (category === 'show') {
+  if (category === 'shows') {
     const { shows: data } = SHOWS;
     result = queryFromData(data, query);
-  } else if (category === 'member') {
+  } else if (category === 'members') {
     const { members: data } = MEMBERS;
     result = queryFromData(data, query);
-  } if (category === 'group') {
+  } if (category === 'groups') {
     const { groups: data } = GROUPS;
     result = queryFromData(data, query);
   }
